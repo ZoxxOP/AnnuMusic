@@ -39,16 +39,16 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 START_REACTION = getenv("START_REACTION", "🥰")
 
-START_STICKER = getenv("START_STICKER", "CAACAgUAAxkBAAFGelBp0ipffTacP6bK3ik2BabuZJohkwACoh0AAsI8kFYAARHuC8AH2Jw7BA")
+START_STICKER = getenv("START_STICKER", "CAACAgUAAxkBAAFJa1ZqAwWA5oQWfD3ZEr5MTvNofuUAAYoAAislAALub4hXaV1eM-iaeoY7BA")
 
-BOT_FANCY_NAME = getenv("BOT_FANCY_NAME", "𝐘ᴜᴋɪ ꭙ ϻᴜsɪᴄ")
+BOT_FANCY_NAME = getenv("BOT_FANCY_NAME", "- 𝐃ιƙʂԋαꭙ ϻᴜsɪc")
 
 
 WEBSITE_URL = getenv("WEBSITE_URL", "https://nex0-1.vercel.app")
 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Kaito_3_2")
 
-OWNER_NAME = getenv("OWNER_NAME", "── 𝛞 𝛜 𝛈 𝛔 𝛈")
+OWNER_NAME = getenv("OWNER_NAME", "- 𝐃ιƙʂԋα")
 
 
 
@@ -94,9 +94,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+N08m5L1mCTU2NTE1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/heartstealer_x")
-SUPPORT_GROUP = "https://t.me/heartstealer_x"
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dissertsoul")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+NNVeQYHwW0JlYmM9")
+SUPPORT_GROUP = "https://t.me/+NNVeQYHwW0JlYmM9"
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
