@@ -46,10 +46,10 @@ from YUKIIMUSIC.misc import mongodb
 game_db = mongodb["wordgame_leaderboard"]
 
 YUMI_PICS = [
-    "https://files.catbox.moe/eje8y8.jpeg",
-    "https://files.catbox.moe/ey2jzp.jpeg",
-    "https://files.catbox.moe/ah5y0f.jpeg",
-    "https://files.catbox.moe/we4yju.jpeg",
+    "https://files.catbox.moe/9ppomx.jpg",
+    "https://files.catbox.moe/cfs2ic.jpg",
+    "https://files.catbox.moe/ofjwr5.jpg",
+    "https://files.catbox.moe/ofjwr5.jpg",
 ]
 
 PROMO =  "───────────────────────\n<emoji id='5999100917645841519'>💀</emoji> <b>ᴘᴧɪᴅ ᴘʀσϻσᴛɪση ᴧᴠᴧɪʟᴧʙʟє</b> <emoji id='5999100917645841519'>💀</emoji>\n───────────────────────\n<blockquote><emoji id='6080189526532167993'>😉</emoji> ᴄʜᴧᴛᴛɪηɢ ɢʀσυᴘ's\n<emoji id='5413546177683539369'>😈</emoji> ᴄσʟσʀ ᴛʀᴧᴅɪηɢ ɢᴧϻє's\n<emoji id='6080176744709495278'>🐾</emoji> ᴄʜᴧηηєʟ's | ɢʀσυᴘ's .....\n<emoji id='5415586682286128590'>🔫</emoji> ʙєᴛᴛɪηɢ ᴧᴅs σʀ ᴧηʏᴛʜɪηɢ</blockquote>\n\n───────────────────────\n<emoji id='6080202089311507876'>😎</emoji> <b>ᴘʟᴧηꜱ -</b>\n<blockquote>||<emoji id='5413415116756500503'>☠️</emoji> ᴅᴧɪʟʏ\n<emoji id='5413415116756500503'>☠️</emoji> ᴡєєᴋʟʏ\n<emoji id='5413415116756500503'>☠️</emoji> ϻσηᴛʜʟʏ||</blockquote>\n───────────────────────\n<emoji id='6001132493011425597'>💖</emoji> <b>ᴄσηᴛᴧᴄᴛ -</b> <a href='https://t.me/hehe_stalker'>愛 | 𝗦𝗧么𝗟𝗞𝚵𝗥</a>\n───────────────────────"
