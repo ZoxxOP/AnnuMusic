@@ -16,19 +16,19 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Kaito_3_2")
+OWNER_USERNAME = getenv("OWNER_USERNAME","WTF_NoFilter")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "IAM_MIMBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AnnuMusicBbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "MIMI X MUSIC")
+BOT_NAME = getenv("BOT_NAME" , "˹Aɴɴᴜ ꭙ ᴍᴜsɪᴄ˼ ㋛︎")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Kaito_3_2")
+ASSUSERNAME = getenv("ASSUSERNAME" , "WTF_NoFilter")
 # ---------------------------------------------------------
 GROQ_API_KEY="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"
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Akash:Akash@akash.cbqfo1w.mongodb.net/?retryWrites=true&w=majority&appName=Akash")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 NSFWAPI = "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"
@@ -41,14 +41,14 @@ START_REACTION = getenv("START_REACTION", "🥰")
 
 START_STICKER = getenv("START_STICKER", "CAACAgUAAxkBAAFJa1ZqAwWA5oQWfD3ZEr5MTvNofuUAAYoAAislAALub4hXaV1eM-iaeoY7BA")
 
-BOT_FANCY_NAME = getenv("BOT_FANCY_NAME", "- 𝐃ιƙʂԋαꭙ ϻᴜsɪc")
+BOT_FANCY_NAME = getenv("BOT_FANCY_NAME", "˹Aɴɴᴜ ꭙ ᴍᴜsɪᴄ˼ ㋛︎")
 
 
 WEBSITE_URL = getenv("WEBSITE_URL", "https://nex0-1.vercel.app")
 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Kaito_3_2")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "WTF_NoFilter")
 
-OWNER_NAME = getenv("OWNER_NAME", "- 𝐃ιƙʂԋα")
+OWNER_NAME = getenv("OWNER_NAME", "𝐀𝐤𝐚𝐬𝐡 𝐃𝐚𝐤𝐬𝐡𝐰𝐚𝐧𝐬𝐡𝐢")
 
 
 
@@ -60,10 +60,10 @@ OWNER_NAME = getenv("OWNER_NAME", "- 𝐃ιƙʂԋα")
 
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1003639584506))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003018946118))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6356015122))
+OWNER_ID = int(getenv("OWNER_ID", 8258238513))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 PLAYER_VIDEO = "https://files.catbox.moe/qxj5y2.mp4"
@@ -80,7 +80,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SUDEEPBOTS/MYRDLMUSIC",
+    "https://github.com/ZoxxOP/AnnuMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -94,9 +94,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dissertsoul")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+NNVeQYHwW0JlYmM9")
-SUPPORT_GROUP = "https://t.me/+NNVeQYHwW0JlYmM9"
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AkashBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AkashBotSupport")
+SUPPORT_GROUP = "https://t.me/+wpug971u3gZiNGM1"
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
