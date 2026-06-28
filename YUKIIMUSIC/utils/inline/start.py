@@ -43,7 +43,11 @@ def start_panel(_):
 
 
 def private_panel(_):
-    safe_owner_id = config.OWNER_ID[0] if isinstance(config.OWNER_ID, list) else config.OWNER_ID
+    safe_owner_id = (
+        config.OWNER_ID[0]
+        if isinstance(config.OWNER_ID, list)
+        else config.OWNER_ID
+    )
 
     buttons = [
         [
@@ -51,51 +55,45 @@ def private_panel(_):
                 text=_["S_B_3"],
                 url=f"https://t.me/{app.username}?startgroup=true",
                 style="success",
-                custom_emoji_id="5249244862359812334"
+                custom_emoji_id="5249244862359812334",
             )
         ],
         [
             api_btn(
-                text=_["S_B_4"],
-                callback_data="settings_back_helper",
+                text=_["S_B_5"],
+                url=f"tg://user?id={safe_owner_id}",
                 style="primary",
-                custom_emoji_id="5238162283368035495"
+                custom_emoji_id="5201875852735820002",
             ),
             api_btn(
-                text="˹ 𝚼єʀsιᴏη ˼",
-                callback_data="yuki_version_info",
+                text=_["S_B_7"],
+                callback_data="panel",
                 style="primary",
-                custom_emoji_id="5296631769112525274"
+                custom_emoji_id="5262770659267735289",
             ),
         ],
         [
             api_btn(
                 text=_["S_B_6"],
                 url=config.SUPPORT_CHANNEL,
-                style="primary",
-                custom_emoji_id="5253539825360843975"
+                style="danger",
+                custom_emoji_id="5253539825360843975",
             ),
             api_btn(
                 text=_["S_B_2"],
                 url=config.SUPPORT_CHAT,
                 style="danger",
-                custom_emoji_id="5258208871423425369"
+                custom_emoji_id="5258208871423425369",
             ),
         ],
         [
             api_btn(
-                text="˹ 𝚼єʙsιᴛє ˼",
-                url="https://t.me/+NNVeQYHwW0JlYmM9",
-                custom_emoji_id="5262770659267735289"
-            ),
-        ],
-        [
-            api_btn(
-                text=_["S_B_5"],
-                url=f"tg://user?id={safe_owner_id}",
-                style="danger",
-                custom_emoji_id="5201875852735820002"
-            ),
+                text=_["S_B_4"],
+                callback_data="settings_back_helper",
+                style="success",
+                custom_emoji_id="5238162283368035495",
+            )
         ],
     ]
+
     return buttons
