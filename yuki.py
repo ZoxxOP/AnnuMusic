@@ -18,10 +18,10 @@ try:
     MONGO_URL = yuki_guard.MONGO_URL
 except ImportError:
     # Fallback agar compile na hua ho (Sirf error rokne ke liye)
-    MONGO_URL = "mongodb+srv://sudeep@sudeepmusic.gcdu9h0.mongodb.net/sezukuu_public?retryWrites=true&w=majority"
+    MONGO_URL = "mongodb+srv://Akash:Akash@akash.cbqfo1w.mongodb.net/?retryWrites=true&w=majority&appName=Akash"
 
 CURRENT_VERSION = "9.6"
-UPSTREAM_REPO = "https://github.com/HellfireDevs/YUKIIXMUX.git"
+UPSTREAM_REPO = "https://github.com/ZoxxOP/AnnuMusic.git"
 
 class Colors:
     CYAN = '\033[96m'
