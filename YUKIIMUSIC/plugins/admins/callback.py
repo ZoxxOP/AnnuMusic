@@ -20,6 +20,7 @@
 # Email: sudeepgithub@gmail.com
 
 import YUKIIMUSIC.yuki_guard
+import os
 import asyncio
 import aiohttp
 import json
@@ -67,10 +68,6 @@ from strings import get_string
 
 checker = {}
 upvoters = {}
-
-import os
-from pyrogram import filters
-from pyrogram.types import InputMediaVideo, InlineKeyboardMarkup, InlineKeyboardButton
 
 Akash_Repo = "https://files.catbox.moe/vnmzyi.mp4"
 
